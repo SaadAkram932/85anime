@@ -1,0 +1,226 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+button {
+  margin-left: 10px;
+}
+
+p {
+  color: white;
+}
+h3 {
+  color: white;
+}
+
+.firstcontainer {
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar li {
+  margin-right: 10px;
+}
+
+.navbar img {
+  width: 50px;
+  /* Adjust size as needed */
+  height: 50px;
+  /* Adjust size as needed */
+}
+
+.search-bar {
+  padding: 5px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.search-button {
+  padding: 6px 12px;
+  background-color: #1A4D2E;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #purple;
+}
+
+.login-button, .watchlist-button {
+  padding: 8px 12px;
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+.login-button:hover, .watchlist-button:hover {
+  background-color: blue;
+}
+
+.secondcontainer {
+  display: flex;
+  background-image: url("background.jpg");
+  padding-bottom: 20px;
+}
+
+.video {
+  display: inline-block;
+  background-color: black;
+  height: 600px;
+  width: 100%;
+  margin-top: 80px;
+  margin-left: 10px;
+}
+
+div.movielist h5 {
+  margin: 2px;
+}
+
+.poster-image {
+  text-align: center;
+  height: 12rem;
+  width: 12rem;
+}
+
+.moviecontainer {
+  margin-bottom: 1rem;
+}
+
+.searchcontant {
+  display: flex;
+  overflow-y: auto;
+  height: 350px;
+  width: 100%;
+  padding-top: 30px;
+  padding-left: 20px;
+  margin: 0;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 1;
+  top: 700px;
+  background-color: black;
+  margin-left: 0;
+}
+
+.imagedivofsearchcontant{
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 0;
+  margin-bottom: 0px;
+  padding: 0;
+  padding-right: 10px;
+  height: 260px;
+  width: 200px;
+  text-align: center;
+  border: 2px;
+  border-style: outset;
+}
+
+.dataOfMovie {
+display: inline-block;
+border-style: outset;
+border: 2px;
+margin-left: 10px;
+margin-right: 0;
+margin-top: 10px;
+margin-bottom: 0;
+padding: 0;
+padding-right: 20px;
+overflow-y: auto;
+
+}
+
+/* For Search Result Container */
+
+
+div.newDivClass img{
+width: 100px;
+margin: 5px;
+}
+
+div.newDivClass{
+
+  width: 200px;
+  height: 250px;
+  text-align: center;
+
+}
+
+
+#search-results-table-one{
+  padding: 5px;
+  padding-top: 20px;
+  margin: 10px;
+  margin-top: 330px;
+  background-color: #1A4D2E;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+align-items: flex-start;
+flex-direction: row;
+flex-wrap: nowrap;
+}
+
+
+#search-results-table-two{
+  padding: 5px;
+    padding-top: 20px;
+  margin: 10px;
+  background-color: #1A4D2E;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+align-items: flex-start;
+flex-direction: row;
+flex-wrap: nowrap;
+}
+
+#allSearchResult {
+  background-color: #4F98CA;
+  padding: 10px;
+  padding-top: 50px;
+  width: 1250px;
+  height: 650px;
+}
+h6 {
+  display: inline;
+  margin: 5px;
+}
+
+.pageh6:hover {
+  text-decoration: underline;
+  color: red;
+}
+/*Search Result Container css ends here*/
+
+#search-data {
+  margin-left: 30px;
+}
+
+#imageofsearchcontant {
+  height: 240px;
+  width: 180px;
+}
