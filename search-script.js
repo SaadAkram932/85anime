@@ -4,7 +4,7 @@ document.getElementById("search-data").addEventListener('submit', function(event
 
   const searchTerm = document.getElementById('search-bar').value.trim();
   const apiKey = '5d7a133b';
-  const apiUrl = `http://www.omdbapi.com/?t=${encodeURIComponent(searchTerm)}&apikey=${apiKey}&r=json`;
+  const apiUrl = `https://www.omdbapi.com/?t=${encodeURIComponent(searchTerm)}&apikey=${apiKey}&r=json`;
 
   fetch(apiUrl)
     .then(response => {
